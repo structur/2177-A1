@@ -1,0 +1,847 @@
+Introduction
+============
+
+3D printing, also referred to as additive manufacturing (AM), is a
+family of methods for creating physical objects from virtual
+representations and digital files of modelled objects or 3D scans. The
+most common 3D printing techniques extrude a range of materials using
+heated nozzles, building up objects a layer at a time. Early industrial
+applications were primarily for rapid prototyping, however as a mature
+manufacturing technique 3D printing is establishing itself in more
+markets and sectors @cutting2015implications. Projections estimate the
+3D printing industry will grow 31% per year until 2020, at which point
+revenues are expected to exceed \$21 billion annually
+@investopedia2015marketstats. Fuelling this growth are a number of
+additive manufacturing practises, below we have covered the three most
+popular: Fused Deposition Modelling (FDM), Stereolithography (SLA) and
+Selective Laser Sintering (SLS).
+
+Techniques for automated additive manufacturing were developed in the
+1960s but were greatly improved by advances in the supporting technical
+architecture which occurred in the 1980s (including computer-aided
+design and computerized task management for printers). The first 3D
+printers used SLA technology, which has had a recent resurgence in small
+firms and consumer markets. In 2006 the first consumer printer was
+released by engineering firm Denken. Since then, FlashForge and Autodesk
+among others, have released SLA printers that fit on a bench and can be
+supported without highly specialized architectures @wohlers2014history.
+FDM was brought into public eye decisively after decades of development
+when Makerbot Industries (now subsidiary to Stratasys), released the
+Thing-o-matic in 2009. Since then there have emerged dozens of companies
+competing in the FDM consumer markets. Development of SLS printing
+techniques also began in the 1990’s, but it is generally considered too
+dangerous to be used outside of specialized industries. Despite this, it
+is hugely valuable for work processes and manufacturing in specialized
+areas @brewster_why_2014.
+
+Manufacturing is an integral process for many industry sectors, any
+changes resulting from the move to AM has the potential to impact a
+range of markets. Market areas where AM techniques are presently
+established include aerospace, automotive, health care (medical devices
+and models), consumer goods, industry applications, as well as research
+and education. An American consulting firm reporting on additive
+manufacturing trends identified bioprinting, aerospace, space
+exploration and tooling as the key emerging markets for 2015
+@wholers2015toc. In a survey of over 1000 3D printing individuals and
+organizations based in European countries and United States, the top AM
+markets were identified as: Consumer Goods, Technology, Industrial
+Goods, Electronics and Services @sculpteo2015stateof.
+
+![image](g3d.png)
+
+*Figure 1.0 Gartner Hype Cycle for 3D Printing* @gartner2015chart
+
+Business Perspective
+====================
+
+AM provides many opportunities for the reshaping of interactions and
+relationships between businesses and between businesses and customers.
+Weller et al. analyzed AM’s economic and technological characteristics
+as well as economic models to produce a list of qualities that
+contribute to this reshaping. They indicate AM:
+
+-   is a versatile, on-demand manufacturing process
+
+-   eliminates sunk-cost customization and flexibility
+
+-   allows for design and product line complexity without increasing
+    manufacturing costs
+
+-   reduces production steps and manual labour throughout production
+    @weller2015economic
+
+Markets
+-------
+
+Given how recently the industry became popular, there are not a lot of
+sources to draw upon when discussing the impact of AM on current
+markets. Shifts in focus within industries are likely to occur as the
+technology develops and business models are reshaped. Within the
+literature, each source categorizes and discusses the sectors and
+markets affected by AM differently. In some cases a distinction is made
+between primary secondary markets, where primary means parts produced
+in-house by machine owners and secondary comprises printed tools, tools
+made from printed patterns, and parts made from these tools
+@cohen2014fostering. This distinction too misses the markets for 3D
+printers themselves, and fails to differentiate business models that
+incorporate 3D printing into their business model vs those that offer it
+as a service to others. Other distinctions include differentiating from
+sectors using 3D printing for direct part production as opposed to
+research and development @wholers2015toc. Further categorizations depend
+on the application, region or material used. Unpacking AM’s primary
+market landscape could help explaining the evolving relationships and
+interactions between industry stakeholders.
+
+### Primary Markets
+
+Industrial markets, with business (as opposed to consumers) for clients,
+comprise the majority (93%) of the primary 3D printing markets. Clients
+are typically large enterprises, generating more business value than
+secondary markets @smithers2015global. This could imply that as the AM
+industry grows and evolves, stakeholders operating within primary
+markets may seek placement in those industrial market segments that
+offer the highest business value. Being business value-driven, these
+stakeholders could reshape the industry by repositioning to other market
+segments, changing their business models to encapsulate 3D printing in
+their processes or their supply chains.
+
+### Secondary Markets
+
+Consumer markets are the secondary 3D printing markets and customers
+consist of small residential consumers and 3D printing hobbyists
+@smithers2015global as well as industrial designers and
+boutique/specialized firms. Judging by the composition of this user
+base, it makes sense that secondary markets have a lower business value
+when compared to primary markets. However, these markets’ have the
+majority of 3D printer utilization (79%) @smithers2015global. Contrary
+to movements in primary markets, secondary markets and their users are
+likely to be more innovation- and collaboration-driven, possibly
+creating organizations and systems to aid them in such endeavours. This
+encourages increased communication between stakeholders in order to
+propagate technological development in the industry (see Application
+Perspective, below).
+
+### Emerging Markets
+
+As mentioned above, 2015 tends for emerging markets include bioprinting
+(eg. organs), aerospace, space exploration, and tooling @wholers2015toc.
+Most of these markets require further technological advances in order to
+be developed in significant ways.
+
+Business Models
+---------------
+
+Business models for AM organizations are beginning to be examined in
+academic literature @guntheretal2015modeltypes
+[@hamalainen2014bmframework]. Those initially surveyed are studied for
+their ability to maximizing value for manufacturers and their customers.
+From these investigations tools have been established to assist in
+developing AM-tailored business models, including the “Customer-centric
+and Value-Based Business Model Framework” @hamalainen2014bmframework.
+This framework contains four components surrounding an AM firm in the
+creation of a business model. These components are: internal factors,
+customers, risk management, and the macro environment
+@hamalainen2014bmframework. Below we have examined some of the more
+popular business models in depth. All could be applied in various
+sectors or have components reused in newer forms of business
+organization, however when concrete industry examples exist they are
+mentioned.
+
+### Enabler for Design Optimization
+
+One business model emphasizes using AM for design optimization where 3D
+printing is used to increase manufactured product quality by improving
+the performance, functionality or aesthetics of the product. This
+results in a reduction of time required for product development, along
+with reducing the length of time-to-customer @guntheretal2015modeltypes.
+Quality optimization and decrease in the product’s development time both
+add value to the manufacturing process, and increase customer
+satisfaction. An example of this involves production of lightweight
+parts for the aerospace industry: Airbus, using Stratasys as their
+manufacturer (the design optimization enabler), has included over 1000
+3D-printed parts into one of their recent Airbus models in order to
+decrease the airplane’s mass and thereby increase overall performance
+@krassenstein2015airbus [@guntheretal2015modeltypes].
+
+### Value Add By Customization
+
+Similar to design optimization, product customization offers customers
+the value of reduced manufacturing times and time-to-customer. What
+makes customization unique is that it enables customers to request
+one-off, rapidly-prototyped manufacturing for individual, personalized
+parts @guntheretal2015modeltypes. Research and implementations in the
+medical industry are notable use cases, involving the production of
+highly-personalized, tissue-based body part / organ replacements using
+living cells as ink @ledford2015medical [@organovo2015]. 3D printing
+organs is still in its infancy, though it illustrates the high degree of
+personalization that is possible with this type of a business model, in
+this context, on a patient-by-patient basis.
+
+### Cost Efficient Production Method
+
+As its name suggests, this type of model caters to cost efficiency as
+the key value proposition. Using small-scale / short-run (rapid)
+manufacturing, customers that require low production volumes of small,
+yet complex parts are given the opportunity to order affordable printing
+services, therefore lowering the required manufacturing cost
+@guntheretal2015modeltypes. Naturally, this caters best to batch-sized
+orders, though it should be noted that minimal price and cost stability
+are not guaranteed for all volume sizes, but they can be found, achieved
+and routinized. Ruffo et al.’s research has detected that there is a
+point in batch sizing where cost drops significantly and cost stability
+is reached. Their study examined the AM costs of two small items, rotary
+knobs and timing belt covers, where a steep cost drop and stability
+occurred at about 100-item batches @ruffoetal2007costanalysis. This of
+course varies based on the manufactured product itself, however the
+general idea still remains the same.
+
+### New Supply Chain Concepts
+
+Traditional manufacturing practices require fixed supply chain
+constructs, whereas AM businesses whose business models incorporate a
+restructured supply chain provide a more dynamic alternative that
+contains several value-adding benefits. Fragmented, decentralized
+production is one of the main features of this 3D printing-oriented
+model @guntheretal2015modeltypes. Such fragmentation entails leveraging
+remote production sites in the event that there is a lack of local
+production tools and limited production factors. This lowers
+distribution efforts, namely packaging, transportation, and customs
+expenses, as well as time-to-consumer @guntheretal2015modeltypes.
+Additionally, the required quantity of safety stocks (spare part supply)
+can be lowered alongside warehousing costs, as this type of model
+enables on-demand production @guntheretal2015modeltypes.
+
+An example scenario is one regarding the US Navy, who have begun
+considering the implementation of this model. The proposed idea had been
+to include 3D printing machinery onboard their aircraft carriers to
+manufacture parts for UAVs on demand, although this poses security
+issues within their operational domain @lang2013usarmy. More widespread
+applications of the restructured supply chain is possible as well,
+considering that it could also benefit individual consumers and the
+manufacturers that supply their machinery. Using a multi-locational,
+decentralized 3D printing network, a manufacturer (e.g. of a kitchen
+appliance) would utilize one of its printing centers that is near a
+customer who requires its services. The local printing center would
+receive and manufacture the order, and then await customer pickup of the
+printed product @pwc2014report. As 3D printing technology becomes more
+affordable, future users of this business model type may also consider
+sending the order directly to a customer’s home printer, which could
+further lower operating costs for the manufacturer and decrease waiting
+time for the customer. However, this would slightly change the
+definition of a “manufacture”, as home printers become part of the
+supply chain.
+
+### Repair by AM / Support Service\*\*\*
+
+3D printing can also be applied as a support service for businesses
+whose machinery requires maintenance through part replacements.
+Implementation of such a support system would reduce maintenance costs
+and operational down-times, since any replacement part would be
+manufactured at the point of demand @guntheretal2015modeltypes. There
+are known applications of this model type, some of which involve the
+mobilization of required AM technologies as a means of bringing them
+closer to the point of demand. For example, Siemens Energy uses SLS to
+repair their machinery on site @guntheretal2015modeltypes. Support and
+repair of equipment using 3D printing could be deployed either in b2b
+contexts or between businesses and consumers. However, full mobilization
+may not be possible yet for all AM methods due to physical constraints.
+
+### Emerging Models
+
+Development and refinement of AM business models is on the horizon, with
+2015 trends impacting 3D printing business models identified by
+consultants as:
+
+1.  Open-source and free resources
+
+2.  Open-source model repositories gaining traction
+
+3.  Makerspaces
+
+4.  3D printing marketplaces and communities
+
+5.  New categories of AM service providers
+
+6.  3D scanning and printing in retail
+
+7.  Established manufacturers and brands entering AM market
+
+8.  Unique collaborations @wholers2015toc
+
+Hahn et al. also discuss the correlation between the degree of industry
+disruptiveness caused and value propositions of start-up firms that
+implement 3D printing technologies. Further, they note that this could
+be particularly useful information to external stakeholders, such as
+potential investors @hahn2014disruptive. In essence, the more disruptive
+the value proposition, the more lucrative the business could become, if
+not industry-defining. This may well imply that due to the disruptive
+nature of 3D printing, key external stakeholders, such as potential
+investors and customers, can be expected to be highly critical of the
+ways in which the business offering may disrupt the market. Therefore,
+their vested interests and expectations could shift more fluidly from
+one 3D printing organization to another comnpared to organizations
+providing more traditional manufacturing models.
+
+Organizational Perspective
+==========================
+
+Motivations
+-----------
+
+A key consideration driving decision-making in consumer-oriented
+manufacturing sectors is the product life cycle, a concept used to
+describe a product from introduction to decline. Current market trends
+are toward a leaner cycle and reduction in product lifespan, forcing
+companies to innovate with products alongside their business models
+@ahuja2015additive. In a McKinsey survey, executives ranked the most
+important perceived benefits of AM as: “[the ability] to increase
+geometric complexity [of designs] and reduce time to market, closely
+followed by reduced tooling and assembly costs” @cohen2014fostering.
+Alongside trends toward a leaner product life cycle, three additional
+areas were determined as important decision points when considering
+adopting AM:
+
+1.  lean product life cycle, more responsive to market, design and
+    commercial uncertainties
+
+2.  product design and delivery, more freedom to explore solutions (e.g.
+    the trend toward mass customization)
+
+3.  tooling and assembly, particularly in fragmented supply chains
+
+4.  working capital in inventory, lowering capital tied in inventory
+    increases flexibility and returns on invested capital
+    @cohen2014fostering.
+
+All of these motivating factors are driven by the goal to remain
+competitive within established markets, responding primarily to existing
+rivalries and threats from substitute products @porter2008five. However,
+some of the business models addressed above involved acting as a new
+entrants, whether established solely for a market or the AM industry
+versus expanding focus to 3D printing from a related sector.
+
+Interactions and Relationships
+------------------------------
+
+One key issue addressed by Cohen is the lack of “end-to-end integration
+across teams,” key strategies to build integration indicate how fully
+relationships would have to be reshaped @cohen2014fostering. Potential
+interventions are: instituting champions for the technology, empowering
+the product design team through support and education, and creating
+alignment with procurement, design and production. As well,
+re-investigating quality assurance (QA) protocols and how the QA team
+interacts with earlier stages of production is essential, since AM has
+different testing and validation techniques than traditional
+manufacturing methods.
+
+Business Processes
+------------------
+
+Many different organizational scenarios represent a range of possible
+futures and all include some degree of organizational change for those
+moving into the sector, already established in manufacturing markets
+where additive processes could be used, or even for organizational
+partners, as referenced above.
+
+Organizational Roles and Units
+------------------------------
+
+While new technologies always impact administrative and operational
+structures, AM techniques require rethinking organization design
+ideologies and processes, potentially impacting many roles and units
+@ahuja2015additive. Procurement, tooling, design, production, quality
+control (testing) as well as project management could all face changes
+to their work. Further, legal departments and human resources would
+tackle new regulatory and occupational (including safety) concerns
+requiring their expertise.
+
+Design for 3D printing requires specialized knowledge of programs and
+the introduction of workflows for preparing models (see Application
+Systems below). Those individuals involved with production will see the
+nature of their work change dramatically when operating 3D printers.
+Material management, job setup, task management, cleaning and recycling
+are all new considerations when operating AM systems. Many high-end
+models may come with leases and repair and maintenance contracts,
+meaning the printer company representatives will provide that expertise,
+however smaller organizations may instead bring those roles inside their
+organization. 3D printers need to be maintained and calibrated on a
+regular basis.
+
+Information Perspective
+=======================
+
+The information perspective in AM centers upon the computer aided design
+(CAD) packages used to model objects that will be 3D printed. Creating
+designs is accomplished using any of the number of 3D modeling software
+packages readily available. Some software allows people to create 3D
+models from scratch, where other software provides users with basic
+shapes that can be adjusted to the user’s needs @ratto2012materializing.
+Objects may also be 3D scanned using additional software and hardware if
+someone wishes to replicate it. Regardless of the creation method for a
+model, there are many considerations before it is ready to be sent to
+the printer. Given this is a unique situation where digital information
+is transformed into a material object, there are digital as well as
+physical concerns to pay attention to @mavri2015redesigning. Primarily,
+the 3D model being created needs to be precise and unambiguous. If it is
+lacking in either, the physical object will come out with errors or be
+impossible to be printed @balccampbell.
+
+Physical Considerations
+-----------------------
+
+### Size
+
+What the user is printing needs to be able to fit the printer and the
+users’ needs. For interlocking objects, size must be given consideration
+in how they will fit together. Size must also be considering when
+printing objects that will be worn on the body. @shapewaystutorial.
+
+### Appendages
+
+If an object contains areas that are vulnerable during the printing
+process, consideration must be given on how to alleviate the risk of a
+part breaking off. Users must give thought to the pose of the object, as
+well as consider adding supports to certain areas. @shapewaystutorial.
+
+### Cost
+
+Some materials are very expensive to print.Depending on what material is
+being used to create the object, users may want to hollow(er) or thinner
+what they can in order to save on the material @shapewaystutorial.
+
+File Considerations
+-------------------
+
+### Origin
+
+Many organizations will create models to print the objects they wish to
+manufacture. However, anybody with access to 3D modelling software has
+the capability to create one. Online communities such as Shapeways allow
+users to upload their own design to their website and they will print
+and ship the item to the user.
+
+### Reliability / Trustworthiness
+
+The reliability of a model will depend on the source and creator of the
+model. If it is created within an organization or from an organization
+than the model will most likely be accurate. If the model is created by
+an amateur and uploaded somewhere than it may not be as reliable as a 3D
+printer would like @bakerchallenge. Some models from online
+repositories, such as Thingiverse, may be malformed, and have errors in
+the meshes that compose their surface, thus making them unsuitable for
+printing.
+
+### Privacy / Security
+
+The biggest privacy issue with 3D printing currently is that printers do
+not care what they are printing, they will print any appropriate file
+they are given. There are no restrictions given to what people are able
+to print (in the very least, in their home 3D printers) which opens
+users up to printing potentially counterfeit items or the intellectual
+properties of others. If an organization is utilizing 3D printers they
+need to look into ways to keep their files secured and protected.
+Examples would be encrypting the files, or circulating them through a
+secure server. There is always the chance in the future that 3D printers
+will equip digital rights management controls to ensure users are not
+printing items that are protected @bakerchallenge.
+
+### Interoperability
+
+Applications that are used to view and construct 3D models, scan
+objects, and manipulate printing configurations work in a variety of
+formats, each offering different metadata structure. Some programmes
+will use custom file formats, but often then export to and open
+stereolithographs– **.stls**, which form a *de facto* common standard
+for model files. Similarly, slicers often parse these **.stls** files
+into a form of open or proprietary **.gcode** format, which the printer
+reads to print an object with specific characteristics. Other programs,
+as discussed below, build this conversion into the back end of their
+software.
+
+Application System Perspective
+==============================
+
+Core Functionalities
+--------------------
+
+Spencer Wright, who writes on design and manufacturing process,
+describes 3D Printing pragmatically when he writes that “Even when a
+design has been optimized specifically for the process, it often takes
+dozens of tries before a functional part comes out of the printer. And
+the process of troubleshooting a failed build–even at the most advanced
+…shops in the world–still involves a lot of trial and error,”
+@wright20153d. Although models can be acquired that are ready-made for
+printing, there is, in fact, a more expanded, general process that
+describes the core functionalities of a 3D printing ‘system’, which can
+include dimensions of both design and manufacturing. Processes must be
+optimized not only at the level of model design, but for each printer,
+and each individual print. Additionally, though beyond the scope of this
+report, the management of large amounts of information in the form of
+models, assemblies, and other artefacts of the 3D printing process also
+poses new opportunities for other types of information management
+software to develop practises around 3D printing.
+
+3D Modelling
+------------
+
+The design phase of 3D printing is somewhat conceptually separate from
+the actual manufacturing phase. Depending on their existing design
+processes, organizations will have various needs when it comes to
+integrating 3D printing qua manufacturing process. On the whole,
+however, design, insofar as it includes requirements, engineering
+standards, and especially modelling, are an essential plane of the 3D
+printing application layer. There is already an established economy of
+modelling software, enriched by 3D printing, which has lowered the
+opportunity cost of one-off manufacturing significantly. Programs like
+SolidWorks, AutoDesk Fusion (Cloud Integrated) and Blender (FOSS) are
+parametric modelling programs, which allow users to manipulate the
+dimensions and extrusions of objects. Other programs (such as Meshmixer)
+are direct, or explicit modelling programmes, which allow users to
+sculpt or shape their objects @ratto2015interview.
+
+Slicing
+-------
+
+Slicing is the process of taking a 3D model and preparing it for
+printing by formatting it as readable for 3D printers. Slicing software
+takes as metadata settings like the temperature of the nozzles, bed, and
+chamber of the 3D printers, as well as the desired number of shells and
+infill percentages for the 3D printed parts. Slicing turns a model into
+a list of coordinates, either as sintering-layer targets or for
+sequential visits by FDM nozzles @3mf20153d. These settings will need to
+be adjusted based on the material and the printer, and can sometimes be
+found in configuration templates. Slicers also help end users position
+parts optimally on the bed based on their geometries, and can help them
+calculate material usage and cost @ratto2015interview. Slicers may be
+more or less open depending on the type of 3D printer or manufacturer.
+
+Print-Driver and Firmware
+-------------------------
+
+3D Printing processes generally use one of three general types of
+architectures to turn solid models into 3D printable G-code
+@ratto2015interview. Print-drivers are applications, that can direct
+relay information from a computer to a 3D printer, either over Wi-Fi or
+through a USB connection. Sometimes, the print-driver software is build
+directly into slicing software. Alternatively, 3D printers may have
+special firmware enabling them to interpret certain types of files
+output from slicing programmes into printing motion. These printers can
+read G-code numerical control language files and print the model
+contained in those files. There are a wide range of firmwares used by 3D
+printers @reprap2015list. Cloud-based process have users upload models
+to cloud-based applications, their parameters specified, and then
+streamed directly to a 3D printer @spark2015 [@pwg]. These models
+attempt to mitigate some of the computational opportunity costs of
+processing complicated 3D models, though they are still under
+development.
+
+Types of 3D Printers
+--------------------
+
+### Fused Deposition Modelling (FDM)
+
+FDM printing is the most widely known type of 3D printing, and the most
+accessible to consumers. FDM works by applying successive layers of
+heated malleable materials in multiple layers to gradually construct an
+object. FDM printers may use spools of filament that are heated and
+pushed through an extruder head. Because of their ease of use and low
+cost, FDM printers currently dominate the consumer market.FDM printing
+is ideal for printing a variety of conventional and experimental
+materials, depending on the capabilities of the printer itself. Basic
+printers often print plastics like PLA or ABS, which are durable and
+suitable for a wide range of applications. With a heated bed or chamber,
+printers can also print materials like wood-composite, nylon,
+polycarbonate, and carbon-fiber reinforced materials..
+
+### Stereolithography (SLA)
+
+SLA printing is perhaps the oldest 3D printing technology, first
+commercialized in the 1980’s by 3D Systems @wohlers2014history. SLA
+printing operates by using a laser or UV light to cure a photosensitive
+liquid resin (a prepolymer) into a coherent polymer structure isomorphic
+to a 3D model @bartolo2011stereolithographic. This is done by exposing a
+vat of liquid resin, curing it in successive layers. Other similar types
+of printing, such as polyjet (proprietary to Stratasys), use a
+deposition head as well as a curing process. SLA has the advantage of
+being able to print in high resolution, as well as to create complex
+geometries– giving it excellent potential in the medical and dental
+modelling fields, as well as an established role in rapid prototyping
+@cline2013stereolithography. SLA is now also becoming increasingly
+available to consumers, bringing greater potential for independent
+designers and smaller businesses, as well as makers @anusci2015these.
+
+### Selective Laser Sintering (SLS)
+
+SLS printing, like SLA, using a high powered laser to harden a uniform
+material. SLS uses either a reservoir of powdered material or sprays
+materials ranging from plastic to metal out of a nozzle direction into
+the path of the laser @wright20153d, lowering the print bed to melt that
+material in successive layers. SLS is valuable because it can be used to
+print very complex parts in a variety of materials, especially strong
+materials like metal- although not without significant effort. For
+industries with demand for highly specialized parts in the aerospace and
+automotive industry, SLS can be used to create small numbers of parts
+within very specific tolerances @munchow2015focus.
+
+Evolution and Future Development
+--------------------------------
+
+3D printing is a rapidly evolving field; costs are dropping and quality
+is rising. As workflows and software are continually improved, the
+capacity to print new materials with greater accuracy and lower fail
+rate will also increase. Advances in materials are already being made by
+printing incredibly light materials @boeing2015boeing as well as
+incredibly complex and tiny structures (known as nano-printing)- and
+even perhaps living organic material (bio-printing) @smith20155
+[@organovo2015]. One of the key vectors for advancement will track past
+advances in material printability. Many of these experimental designs
+have been built off of consumer platforms, which have, in the last
+several years, vastly expanded the number of materials they can print-
+from low temperature thermoplastics like PLA to high temperature ones
+like nylon and polycarbonate. In the future, it may become easier for
+smaller firms and even consumers to acquire multi-material printers that
+can print ceramics or even metal @ratto2015interview.
+
+One of the biggest advances in 3D printing will be the expansion of
+job-management applications that enable the coordination of multiple
+printers simultaneously. Type A machines currently markets the Print
+Pod- a system of interconnected 3D printers that can handle large
+assemblies or managed workflows- all of this built on a modified
+distribution of Octoprint- a FOSS web-based print-driver @typea2015.
+Stratasys too is looking to scale up the use of 3D printers for
+on-demand manufacturing and to improve the agility of manufacturing
+workflows @crouse2015.
+
+Open Source Options
+-------------------
+
+Likely due in part to its use by makers and designers, there are a great
+variety of Free and Open Source solutions available in 3D printing.
+Modelling programs like Blender and OPENSCAD, slicers such as Slic3r and
+Cura as well as print-drivers and printer firmware are licensed under
+some version of the GNU GPL license. Some consumer grade FDM printers
+are also classified as Free Software/Hardware–notably the Aleph
+Industries Lulzbot TAZ printer @fsf3d. Companies like Autodesk,
+developers of the Spark cloud-based 3D printing architecture, often work
+with their users to refine their products and use open source licences.
+These products, and 3D printing as-such, has a devoted community of
+practise where knowledge is created, maintained, and disseminated to new
+users.
+
+Requirements and Design
+=======================
+
+Modelling Languages
+-------------------
+
+As discussed above, there have been pushes toward standardized metadata
+schema @3mf20153d. While Interesting, the formats only rehash the
+metadata that is already encoded into printable files within the .gcode.
+Storing this data in an organized manner may benefit users, but will be
+dependant on how models are stored and documented within an
+organization. UML Class diagrams may help with this process.
+
+There are, furthermore, a number of steps within a 3D printing work-flow
+that can reliably be expected to arise, including steps like mesh
+repair, slicing, placement, and setting parameters. While these, in a
+sense *could* be reflected by BPMN models, it should be noted that this
+would obscure a lot of the skilled heuristic work within these
+subprocesses. Data flow diagrams would offer an interesting, though very
+distant model of the mediation of data throughout a 3D printing process.
+
+We must at all points, however, recall that there is a large amount of
+feedback between printer and operator which is obscured by rigorous
+modelling languages, though they may be useful for training and
+documentation.
+
+Special Challenges
+------------------
+
+### Throughput
+
+Some objects may take hours or days to create. Organizations need to be
+aware of this timeliness and consider if the amount of objects they need
+vs how many printers they can acquire is reasonable in order to adopt 3D
+printing into their processes. Modelling and print preparation must also
+be considered as part of this process, and in some cases, where the
+majority of time is spent.
+
+### Scalability
+
+Some 3D designs do not scale to traditionally manufacturing. What may
+work out in a 3d printed prototype may not always scale to manufacturing
+ideals. Indeed, only specialized and prototypical systems (see
+Application Systems, above) are capable of cost-effectively competing
+with traditional manufacturing techniques (i.e. injection moulding)
+beyond a small number of parts.
+
+### Extensibility
+
+Open source 3D printers can be modified to increase nozzle size, to
+accept more extruder heads, or to print in different materials. In some
+cases, they can even be rebuilt to print in larger volumes. Both the
+hardware and software of simple FOSS FDM machines is extremely modular.
+Proprietary systems do not age as well, and will need to be replaced
+when their original functionality no longer serves firm needs.
+
+### Usability
+
+Open Source 3D printers and software are powerful, but not always usable
+out of the box. Operators must be prepared to get to know the mechanics
+of their software and printers, and to keep the printers maintained and
+calibrated. Learning to print requires taking on a new mindset to object
+creation.
+
+### Interoperability
+
+Referring back to the Information Perspective, having an interoperable
+hardware and software environment is essential to 3D printing. However,
+with either proprietary or FOSS equipment, this is generally an easy
+standard to attain, thanks to widespread use of .stl and .gcode formats.
+
+### Reliability
+
+Printer reliability is a key concern, as models can fail in many
+different ways. They may suffer from inter-layer adhesion issues, the
+printer may not be calibrated correctly, material feed may malfunction,
+temperature may be off, or slicing may have failed. Troubleshooting
+these problems and getting 3D printers into a good work-flow is the task
+of skilled operators, and can only be accomplished with research,
+technique and time!
+
+Recent Advances
+---------------
+
+As mentioned above, progress has been made in improving Throughput and
+scalability by finding ways to manage multiple printers at a time.
+Advances in reliability have also been made through an increase in
+knowledge and the formation of communities of practise, as well as the
+advance of software.
+
+Standards and Guidelines
+========================
+
+Industry Standards, Guidelines and Best Practices
+-------------------------------------------------
+
+Some perceive the current landscape of additive manufacturing as one
+with only nascent standards and best practises for everything from
+technical specifications and file formats to safety
+@brewster2013napster. Further, experts have identified the lack of
+standards around AM as a key factor when determining barriers to its
+broad adoption @monzon2015standardization. However, increasingly efforts
+are being formed to develop and codify best practises, primarily driven
+by ASTM International (previously American Society for Testing and
+Materials) and International Organization for Standardization (ISO)
+@monzon2015standardization. In 2015 an industry consortium with many of
+the top printer manufacturers formed to release a 3D printing format
+specification (3MF) that allows design applications to send
+full-fidelity 3D models to a mix of other applications, platforms,
+services and printers @3mf. Also, the Printer Working Group released a
+White Paper in 2015 identifying the possibilities for “standardization
+of 3D Printing using the [current] Internet Printing Protocol and PWG
+Semantic Model” @pwg.
+
+ASTM International has a technical committee on Additive Manufacturing
+Technologies (F42) with working standards on Test Methods (F42.01),
+Design (F42.04), and Materials and Processes (F42.05)
+@astm2015committee. ISO established Committee TC 261 for Additive
+Manufacturing Technologies in 2011, it has four working groups:
+Terminology (WG1), Methods, Processes and Materials (WG2), Test Methods
+(WG3), and Data Processing (WG4). UL (Underwriters Laboratories), an
+American safety consulting organization that is also a Nationally
+Recognized Testing Laboratory, has published safety-oriented \`\`3D
+Printing & Additive Manufacturing Equipment Compliance [Guidelines]” as
+well as guidelines for “Medical Equipment Made by 3D Printing and
+Additive Manufacturing” @ul2015additive [@wiki2015ul].
+
+Government agencies have been trying to encourage this development of
+measurements and standards, with NIST recently awarding \$7.4 million in
+grants to research projects working on these challenges @nist2013awards.
+
+![image](standardsastm-iso.png)
+
+*Figure 2.0 Hierarchy of AM standards by ASTM and ISO*
+@monzon2015standardization
+
+Regulatory and Legal Considerations
+-----------------------------------
+
+The fact that 3D printing technology development is not centralized to
+one country adds a layer of complexity to establishing standards and
+regulatory consistency @brewster2013napster. While the United States
+hosts many key companies, manufacturers and other organizations vital to
+the additive manufacturing industry exist across South East Asia and
+Europe. Already regulated markets face additional hurdles adopting
+additive manufacturing into their enterprises. Safety-critical sectors
+including aerospace and health care have to receive approvals from
+industry regulators in the country they operate in, including the
+Federal Aviation Administration (FAA) and Food and Drug Administration
+(FDA) in the United States, based on specific criteria that may only be
+applicable in their areas @wright2014regulatory. Within certain
+regulatory agencies, most publicly the FDA, research and strategizing in
+response to emerging 3D printing trends has led to the beginning of
+updating and developing new standards that can accommodate
+@fdavoice2013fda. Recent controversies around the ability for consumers
+and hobbyists to print guns, another regulated product, led to the
+Department of Homeland Security issuing a cautionary bulletin in 2013
+@jana2013guns.
+
+Analysis of patents for 3D printing show a surge from 2010 on, the top
+20 companies holding patents reveals a mix of ‘direct entrants’
+(Stratasys, 3D Systems Inc., Objet Ltd.), established companies
+diversifying into the industry (Hewlett-Packard Co, IBM, Xerox), and
+research institutions (MIT, University of Northwestern). There have been
+a series of aggressive acquisitions and portfolio consolidation
+primarily on the part of Stratasys and 3D Systems Inc. Despite this
+there still exists a distribution across the range of application areas,
+materials and technologies in patent holders @gridlogics2014patents.
+
+Intellectual Property rights for material products are actually
+comprised of a group of rights including design protection right,
+copyright, patent and trademark all of which are enforced through law
+@bradshaw2010intellectual [@depoorter2014intellectual]. Despite
+harmonization under international efforts including the Trans-Pacific
+Partnership (TPP) trade agreement these can vary significantly depending
+on the jurisdiction and other legal restrictions may additionally exist.
+
+Associations and User Groups
+----------------------------
+
+Various industry, professional and user associations exist for additive
+manufacturing and 3D printing. Some, including the Additive
+Manufacturing Association (AMA in the VDMA), Association for
+Manufacturing Additive Technology Group (AMG) and 3D Printing
+Association (3DPA), focus on industry members: manufacturers, designers
+and resellers alongside scientific research organizations @amt [@3dpa]
+@ama. There remain those, specifically the Additive Manufacturing Users
+Group (AMUG), whose mandate expressly orients them toward education and
+support for users: owners and operators of additive manufacturing
+equipment @amug. For consumer equipment, meetups and hackerspaces
+continue to be popular ways to interact with 3D printers though bespoke
+events for specific groups and libraries increasingly provide access
+@meetups [@hackerspaces; @womenin3D; @helsel2015ala].
+
+Within the United States there has been significant support from the
+Federal Government since 2012 within the National Network for
+Manufacturing Innovation (NNMI). The flagship Institute for this is
+America Makes, a national accelerator for additive manufacturing and 3D
+printing, focusing on “linking and integrating [small- and medium-
+sized, or startup] companies with existing public, private, or
+not-for-profit industrial and economic development resources, and
+business incubators” @americamakes.
+
+Appendix {#appendix .unnumbered}
+========
+
+Statement of Individual Contributions {#statement-of-individual-contributions .unnumbered}
+-------------------------------------
+
+Our group divided the work based on different sections and each
+researched and brought together resources before preparing their
+prospective areas. Dimitar focused on the Business Perspective, Dawn did
+the Organization Perspective as well as Standards, Lauren did
+Information Perspective, and Curtis did the Application Perspective.
+Together from this Curtis and Lauren derived the Requirements Section.
+Curtis forced everyone to typeset the document on ShareLaTeX, and we all
+had fun!
