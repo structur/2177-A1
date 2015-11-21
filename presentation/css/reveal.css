@@ -1173,3 +1173,8 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.inline-block {
+  display: inline-block!important;
+  width: 49%;
+}
