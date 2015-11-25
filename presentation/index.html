@@ -16,6 +16,17 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<!-- Add "?print-pdf to the query string, print and open in Preview. Save as 
+<script>
+  if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'reveal.js/css/print/pdf.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  }
+</script>
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -53,13 +64,13 @@
 				<section>
 					<section>
 						<h2>3D Printing and <br /> Additive Manufacturing (AM)</h2>
-						<div align="left">
+						<div align="justify">
 							<p><br />A family of methods for creating physical objects from virtual representations and digital files of modelled objects or 3D scans.</p>
 						</div>
 					</section>
 					<section>
 						<h3>Techniques</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Most common 3D printing techniques extrude a range of materials using heated nozzles, building up objects a layer at a time:
 								<ul style="font-size:75%">
 								  <li>Fused Deposition Modelling (FDM)</li>
@@ -71,7 +82,7 @@
 					</section>
 					<section>
 						<h3>History</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Automated AM developed in the 1960s but not until 1980s and advances in computer-aided design and computerized task management that they were greatly improved.</p>
 
 						  <p>First 3D printers used SLA technology. FDM was brought into public eye with release of consumer-oriented Thing-o-matic in 2009. SLS development began in the 1990’s, though it is considered too dangerous to be used outside of specialized industries.</p>
@@ -81,7 +92,7 @@
 					</section>
 					<section>
 						<h3>Industry Landscape</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Manufacturing integral process in many sectors, changes resulting from the move to AM has the potential to impact a range of markets.</p>
 
 						  <p>Market areas where AM techniques are presently established include: aerospace, automotive, health care (medical devices and models), consumer goods, industry applications, as well as research and education.</p>
@@ -110,7 +121,7 @@
 				<section>
 					<section>
 						<h2>Business Perspective</h2>
-						<div align="left">
+						<div align="justify">
 						<p>Opportunities for reshaping interactions and relationships between businesses and customers.</p>
 						<h3>AM Characteristics</h3>
 						<ul>
@@ -141,7 +152,7 @@
 
 					<section>
 					<h3>Emerging Markets</h3>
-					<div align="left">
+					<div align="justify">
 						<p>2015 trends for emerging markets include:</p>
 						<ul>
 							<li>bioprinting (eg. organs)</li>
@@ -154,7 +165,7 @@
 
 					<section>
 					<h2>Business Models</h2>
-					<div align="left">
+					<div align="justify">
 					<p>5 Major Business Models</p>
 						<ul>
 							<li>Enabler for Design Optimization</li>
@@ -170,7 +181,7 @@
 
 					<section>
 					<h3>Enabler for Design Optimization</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Increases product quality by improving its <i>performance, functionality or aesthetics</i>. 
 						This results in a reduction of time required for product development, along with reducing time-to-customer.</p>
 						<p><img src="img/airplane.png" style="border: 0; background: none; box-shadow: none; margin: 0;" /><b>Example:</b> Airbus - included over 1000 3D-printed parts into one of their recent airplane models in order to decrease the 
@@ -180,7 +191,7 @@
 
 					<section>
 					<h3>Value Add By Customization</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Enables customers to request one-off, rapidly-prototyped manufacturing for individual, personalized parts. Offers reduced time-to-customer as well.</p>
 						<p><img src="img/medicine.png" style="border: 0; background: none; box-shadow: none; margin: 0;" /><b>Example:</b> Production of highly-personalized, tissue-based body part / organ replacements using living cells as ink</p>
 					</div>
@@ -188,7 +199,7 @@
 
 					<section>
 					<h3>Cost Efficient Production Method</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Using small-scale / short-run (rapid) manufacturing, customers that require low production
 						volumes can order affordable printing services, thus lowering the required cost.</p>
 						<p>Minimal price and cost stability are not guaranteed for all volume sizes, but can be found,
@@ -199,7 +210,7 @@
 
 					<section>
 					<h3>New Supply Chain Concepts</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Fragmented, decentralized production - leveraging remote production sites when lacking local production tools.</p>
 						<p>This lowers distribution efforts, namely <i>packaging, transportation, and customs expenses, as well as time-to-consumer</i></p>
 						<p><img src="img/ship.png" style="border: 0; background: none; box-shadow: none; margin: 0;" /><b>Example:</b> 3D printing machinery onboard US Navy aircraft carriers to manufacture parts for UAVs on demand, but
@@ -209,7 +220,7 @@
 
 					<section>
 					<h3>Repair by AM &#47; Support Services</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Support service for businesses whose machinery requires maintenance through part replacements.</p>
 						<p>Reduces maintenance costs and operational down-times, since any replacement part are manufactured at the point of demand</p>
 						<p><img src="img/repair.png" style="border: 0; background: none; box-shadow: none; margin: 0;" /><b>Example:</b> Siemens Energy uses SLS to repair their machinery on site</p>
@@ -218,7 +229,7 @@
 
 					<section>
 					<h3>Emerging Models</h3>
-					<div align="left">
+					<div align="justify">
 					<ul>
 						<li>Open-source and free resources</li>
 						<li>Open-source model repositories gaining traction</li>
@@ -238,14 +249,14 @@
 				<section>
 					<section>
 						<h2>Organizational Perspective</h2>
-						<div align="left">
+						<div align="justify">
 							<p> A key consideration in consumer-oriented manufacturing sectors is the product life cycle: a concept used to describe a product from introduction to decline. Current trends are toward a leaner cycle and reduction in product lifespan, forcing companies to innovate with products alongside business and organizational models</p>
 						</div>
 					</section>
 
 					<section>
 						<h3>Motivations</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Executives ranked the most important perceived benefits of AM. Key decision points were identified for driving adoption:</p>
 							<ol>
 								<li>lean product life cycle: more responsive to market, design and commercial uncertainties</li>
@@ -259,7 +270,7 @@
 
 					<section>
 					  <h3> Interactions and Relationships</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Current lack of “end-to-end integration across teams,” strategies to build integration indicate degree relationships could be reshaped <span style="font-size:75%">[Cohen, 2014]</span>:</p>
 							<ul>
 								<li>instituting champions for the technology</li>
@@ -272,7 +283,7 @@
 
 					<section>
 					  <h3> Organizational Roles and Units </h3>
-						<div align="left">
+						<div align="justify">
 							<p>AM requires rethinking organization design ideologies and processes, potentially impacting many roles and units:
 							<br /><i>Procurement, tooling, design, production, quality control (testing), repaire and maintenance as well as project management roles</i> could all face changes to their work. Legal departments and human resources would tackle new regulatory and occupational (including safety) concerns requiring their expertise.</p>
 							<p><i><b>Production</b></i> especially will see the nature of their work change dramatically: material management, job setup, task management, cleaning and recycling are all new considerations.</p>
@@ -286,7 +297,7 @@
 				<section>
 					<section>
 						<h2>Information Perspective</h2>
-						<div align="left">
+						<div align="justify">
 							<p>The information perspective centers upon the computer aided design (CAD) packages used to model objects that will be 3D printed. Given this is a unique situation where digital information is transformed into a material object, there are digital as well as physical concerns to pay attention to <span style="font-size:75%">[Mavri, 2015]</span>.
 </p>
 						</div>
@@ -294,14 +305,14 @@
 
 					<section>
 					<h2>Physical Considerations</h2>
-					<div align="left">
+					<div align="justify">
 						<p>The 3D model being created needs to be precise and unambiguous. If it is lacking in either, the physical object will come out with errors or be impossible to be printed <span style="font-size:75%">[Balc, 2001]</span></p>
 					</div>
 					</section>
 
 					<section>
 					<h3>Size</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Object needs to fit the printer and the needs of the user
 						  <ul>
 								<li>Size of the printer and what is to be printed</li>
@@ -313,7 +324,7 @@
 
 					<section>
 					<h3>Appendages</h3>
-					<div align="left">
+					<div align="justify">
 						<p style="font-size:70%">If an object contains areas that are vulnerable during the printing process, consideration must be given on how to alleviate the risk of a part breaking off. Users must give thought to the pose of the object, as well as consider adding supports to certain areas.<span style="font-size:75%">[Berenhaus, 2015]</span></p>
 					</div>
 					<img align="center" src="img/vulnerableareas.png" width="45%" height="45%" />
@@ -322,28 +333,28 @@
 
 					<section>
 					<h3>Cost</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Some materials are very expensive to print. Depending on what material is being used to create the object, users may want to hollow(er) or thinner what they can in order to save on the material <span style="font-size:75%">[Berenhaus, 2015]</span></p>
 					</div>
 					</section>
 
 					<section>
 					<h2>File Considerations</h2>
-					<div align="left">
+					<div align="justify">
 					  <p> On top of the physical consideration, user's need to think about certain aspects of the CAD files themselves.</p>
 					</div>
 					</section>
 
 					<section>
 					<h3>Origin</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Many organizations will create models to print the objects they wish to manufacture. However, anybody with access to 3D modelling software has the capability to create one. Online communities such as Shapeways allow users to upload their own design to their website and they will print and ship the item to the user.</p>
 					</div>
 					</section>
 
 					<section>
 					<h3>Reliability &#47; Trustworthiness</h3>
-					<div align="left">
+					<div align="justify">
 						<p>This aspect will depend on the origin of the model</p>
 					  <ul>
 							<li>Most likely accurate when created within organization</li>
@@ -355,14 +366,14 @@
 
 					<section>
 					<h3>Privacy &#47; Security</h3>
-					<div align="left">
+					<div align="justify">
 						<p>The biggest privacy issue with 3D printing currently is that printers do not care what they are printing, they will print any appropriate file they are given. There is always the chance in the future that 3D printers will equip digital rights management controls to ensure users are not printing items that are protected. If an organization is utilizing 3D printers they need to look into ways to keep their files secured and protected. Examples would be encrypting the files, or circulating them through a secure server <span style="font-size:75%">[Baker, 2015]</span>.</p>
 					</div>
 					</section>
 
 					<section>
 					<h3>Interoperability</h3>
-					<div align="left">
+					<div align="justify">
 						<p>Applications that are used to view and construct 3D models, scan objects, and manipulate printing configurations work in a variety of formats, each offering different metadata structure.</p>
 					  <ul>
 							<li>Some use custom file formats</li>
@@ -385,7 +396,7 @@
 
 					<section>
 					  <h2>Core Functionalities</h2>
-						<div align="left">
+						<div align="justify">
 						  <p style="font-size:70%">3D printing requires a diverse ecosystem of information, labout, workflows, and applications. Although models can be acquired that are ready-made for printing, there is, in fact, a more expanded, general process that describes the core functionalities of a 3D printing ‘system’, which can include dimensions of both design and manufacturing. </p>
 						</div>
 						  <img align="center" src="img/application_process.png" width="70%" height="70%" />
@@ -393,21 +404,21 @@
 
 					<section>
 					  <h2>3D Modelling</h2>
-						<div align="left">
+						<div align="justify">
 							<p>Depending on their existing design processes, organizations will have various needs when it comes to integrating 3D printing <i>qua</i> manufacturing process. There is already an established ecosystem of modelling applications that are integratable with a 3D printing workflow. The type of modelling software selected affects not only the software architecture, but the price, capabilities, and the amount of training needed to operate them.
 						</div>
 					</section>
 
 					<section>
 						<img align="center" src="img/Blender_parametric_model.png" width="60%" height="60%" />
-						<div align="left">
+						<div align="justify">
 							<p style="font-size:75%"> <b>Parametric</b> modelling softwares such as Solidworks, Autodesk Fusion or Blender (shown above) allow users to create objects by changing dimensions or by extruding faces. Some of these programmes have been mainstays of the modelling craft for years, and have steep learning curves. They are very complex, and allow many parts to be represented in assemblies.</p>
 						</div>
 					</section>
 
 					<section>
 					<img align="center" src="img/3d_modelling.jpg" width="50%" height="50%" />
-						<div align="left">
+						<div align="justify">
 							<p style="font-size:75%" ><b>Direct</b> modelling softwares, such as MeshMixer use brushes to sculpt or shape objects directly. These softwares may be unsuitable for modelling large part assemblies but might also be the best option for repairing found models or 3D scans.</p>
 						</div>
 					</section>
@@ -428,12 +439,12 @@
 
 					<section>
 					  <h3>Printing Processes: Print Drivers and Networking</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Various architectures exist for transferring a sliced 3D model to a printer for printing <span style="font-size:75%">[RepRap, 2015]</span>.</p>
 						</div>
 					  <img src="img/architectures.png" align="center" width="35%" height="35%"/>
 						<br /><span style="font-size:40%"> Architecture types from [Ratto and Doell, 2015]</span>
-						<div align="left">
+						<div align="justify">
 							<p style="font-size:60%" >Cloud-based have users upload models to cloud-based applications, specify parameters, and stream directly to a 3D printer, mititgating computational costs of processing complex models <span style="font-size:75%">[Autodesk, 2015, The Printer Working Group, 2015]</span>.</p>
 						</div>
 					</section>
@@ -486,7 +497,7 @@
 					  <h2>Evolution and the Future of 3D Printing</h2>
 					  <div style="font-size:75%;" >
 							<p>Barriers to entry are lowering while quality and reliability of production is rising.</p>
-						<div align="left" class="inline-block">
+						<div align="justify" class="inline-block">
 					  	<ul>
 							  <li><b>New Materials</b> will expand the range of applications for 3D printed parts, from Aerospace <span style="font-size:75%">[Boeing, 2015]</span>, to nano-printing <span style="font-size:75%">[Smith, 2015]</span>, and perhaps even organic material (bio-printing) <span style="font-size:75%">[Organovo, 2015]</span>.</li>
 							  <li><b>Job-Management Applications</b> will enable the coordination of multiple printers simultaneously. Type A machines and Straysys currently markets the Print Pod- a system of interconnected 3D printers that can handle large assemblies or managed workflows <span style="font-size:75%">[Type A, 2015; Crouse, 2015]</span>.</li>
@@ -501,7 +512,7 @@
 
 					<section>
 					  <h2>Open Source 3D Printing</h2>
-						<div align="left" style="font-size:75%">
+						<div align="justify" style="font-size:75%">
 							<p>Robust communities of practise include makers, designers, researchers, etc, who create Free and Open Source solutions available under GNU GPL lisences:</p>
 					  <ul>
 						  <li><b>Modelling programs</b> include Blender, OPENSCAD and MESHMIXER</li>
@@ -524,7 +535,7 @@
 
 					<section>
 					  <h2>Modelling Languages</h2>
-					  <p>There are a number of steps within a 3D printing work-flow that can reliably be expected to arise, including steps like mesh repair, slicing, placement, and setting parameters. While these, in a sense <em>could</em> be reflected by BPMN models, it should be noted that this would obscure a lot of the skilled heuristic work within these subprocesses. Data flow diagrams would offer an interesting, though very distant model of the mediation of data throughout a 3D printing process. We must at all points, however, recall that there is a large amount of feedback between printer and operator which is obscured by rigorous modelling languages, though they may be useful for training and documentation.</p>
+					  <p align="justify">There are a number of steps within a 3D printing work-flow that can reliably be expected to arise, including steps like mesh repair, slicing, placement, and setting parameters. While these, in a sense <em>could</em> be reflected by BPMN models, it should be noted that this would obscure a lot of the skilled heuristic work within these subprocesses. Data flow diagrams would offer an interesting, though very distant model of the mediation of data throughout a 3D printing process. We must at all points, however, recall that there is a large amount of feedback between printer and operator which is obscured by rigorous modelling languages, though they may be useful for training and documentation.</p>
 					</section>
 
 					<section>
@@ -533,15 +544,18 @@
 					</section>
 
 					<section>
-					<h5>Throughput</h5>
+					  <div align="justify">
+					    <h5>Throughput</h5>
 					<p style="font-size:60%">Including modelling, prep and print time, and accounting some objects may take hours or days to create. Organizations need to be aware of this timeliness and consider if the amount of objects they need vs how many printers they can acquire is reasonable in order to adopt 3D printing into their processes.
 					<h5>Scalability</h5>
 					<p style="font-size:60%">Some 3D designs do not scale to traditionally manufacturing. What may work out in a 3d printed prototype may not always scale to manufacturing ideals when geometry and number of parts needed are considered.</p>
 					<h5>Extensibility</h5>
 					<p style="font-size:60%">Open source 3D printers can be modified to increase nozzle size, to accept more extruder heads, or to print in different materials. In some cases, they can even be rebuilt to print in larger volumes. Both the hardware and software of simple FOSS FDM machines is extremely modular. Proprietary systems do not age as well, and will need to be replaced when their original functionality no longer serves firm needs.</p>
+					</div>
 					</section>
 
 					<section>
+					  <div align="justify">
 					  <h5>Usability</h5>
 					  <p style="font-size:60%">Printers can take practise to calibrate and may break down. Operators must be prepared to get to know the mechanics of their software and printers, and to keep the printers maintained. Learning to print requires taking on a new mindset to object creation.</p>
 
@@ -550,6 +564,7 @@
 
 					  <h5>Reliability</h5>
 					  <p style="font-size:60%">Models can fail in many ways, from inter-layer adhesion issues, improper calibration, material feed malfunction, temperature being off, or the slicing may have failed. Troubleshooting these problems and getting 3D printers into a good work-flow is the task of skilled operators, and can only be accomplished with research, technique and time!</p>
+					  </div>
 					</section>
 
 				</section>
@@ -558,7 +573,7 @@
 				<section>
 					<section>
 						<h2>Standards &amp; Guidelines</h2>
-						<div align="left">
+						<div align="justify">
 							<p> Currently nascent, either local to organization, or derived ad hoc from file format and software requirements) <span style="font-size:75%">[Brewster, 2013]</span></p>
 							<p>Informality of standards seen a key barrier to widespread adoption <span style="font-size:75%">[Monz&oacute;n et al., 2015]</span></p>
 						</div>
@@ -566,7 +581,7 @@
 
 					<section>
 					  <h3>Industry Standards, Guidelines, and Best Practises</h3>
-						<div align="left">
+						<div align="justify">
 							<p>More efforts are being formed to develop and codify best practises, primarily driven by:
 								<ul>
 									<li><b>ASTM</b> International (previously American Society for Testing and Materials)</li>
@@ -584,7 +599,7 @@
 
 					<section>
 					  <h4>Recent Trends</h4>
-						<div align="left">
+						<div align="justify">
 						<ul>
 							<li><b>3MF Industry Consortium</b> (2015)with printer manufacturers formed to release a 3D printing format specification (3MF) <span style="font-size:75%">[3MF Consortium, 2015]</span></li>
 							<li><b>Printer Working Group</b> (2015) White Paper on standardizing 3D Printing using current PWG Semantic Model <span style="font-size:75%">[The Printer Working Group, 2015]</span></li>
@@ -597,7 +612,7 @@
 
 					<section>
 						<h3>Regulatory and Legal Considerations</h3>
-						<div align="left">
+						<div align="justify">
 							<p>Challenging landscape because <i>3D printing technology development is not centralized to one country</i>. United States hosts many key companies, manufacturers and other organizations, but others in South East Asia and Europe.</p>
 
 							<p>Already <i>regulated markets and safety-critical sectors</i> (e.g. aerospace and health care) have to receive additional approvals from industry regulators (e.g FAA and FDA). <span style="font-size:75%">[Wright, 2014]</span>.</p>
@@ -608,7 +623,7 @@
 
 					<section>
 						<h4>Patents</h4>
-						<div align="left">
+						<div align="justify">
 							<p>Surge in IP proliferation from 2010 on. Top 20 companies holding patents reveals a mix of:
 							<ul>
 								<li>‘direct entrants’ (Stratasys, 3D Systems Inc., Objet Ltd.)</li>
@@ -624,7 +639,7 @@
 
 					<section>
 					  <h2>Associations and User Groups</h2>
-					  <div align="left">
+					  <div align="justify">
 						<p>Oriented toward industry members including manufacturers, designers and resellers along- side scientific research organizations:
 							<ul style="font-size:75%">
 							  <li>Additive Manufacturing Association (<b>AMA in the VDMA</b>)</li>
@@ -642,20 +657,25 @@
 
 					<section>
 						<h4>Government Support</h4>
-					  <div align="left">
+					  <div align="justify">
 						<p>In United States significant support has come from the Federal Government since 2012 through the National Network for Manufacturing Innovation (NNMI) and America Makes, a national accelerator for additive manufacturing and 3D printing:</p>
 					  </div>
 						<blockquote cite="America Makes. (n.d.). About America Makes">
 							&ldquo;linking and integrating [small- and medium- sized, or startup] companies with existing public, private, or not-for-profit industrial and economic development resources, and business incubators&rdquo;
 						</blockquote>
 					</section>
-				</section>
+</section>
+
+<section>
+  <h1> END </h1>
+<img src="img/robarts_final.jpg" width="75%" height="75%" />
+  </section>
 
 				<!-- References -->
 				<section>
 					<section>
 						<h2>References</h2>
-						<p align="left" style="font-size: 50%">
+						<p align="justify" style="font-size: 50%">
 						  [3MF Consortium, 2015] 3MF Consortium (2015). 3mf consortium. [Online; accessed 17- October-2015]. <br />
 						  
 						  [Ahuja et al., 2015] Ahuja, B., Karg, M., and Schmidt, M. (2015). Additive manufacturing in production: challenges and opportunities. In SPIE LASE, pages 935304–935304. International Society for Optics and Photonics. <br />
@@ -675,7 +695,7 @@
 					</section>
 						  
 					<section>
-					  <p align="left" style="font-size: 50%">
+					  <p align="justify" style="font-size: 50%">
 						  [Depoorter, 2014] Depoorter, B. (2014). Intellectual property infringements & 3d printing: Decentralized piracy. Hastings Law Journal, 65:1483–1493. [Online; accessed 17-October- 2015]. <br />
 						  [Lulzbot, 2015] Lulzbot (2015). Free software for 3d printing. [Online; accessed 19-October- 2015] <br />
 						  [Monz&oacute;n et al., 2015] Monzo&oacute;n, M., Ortega, Z., Mart&iacute;nez, A., and Ortega, F. (2015). Standardization in additive manufacturing: activities carried out by international organizations and projects. The International Journal of Advanced Manufacturing Technology, 76(5-8):1111–1121. <br />
